@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEXT MOBILE – جيل جديد من الهواتف الذكية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-next">NEXT</span>
+        <span class="logo-mobile">MOBILE</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#brands">الماركات</a></li>
+        <li><a href="#phones">الهواتف</a></li>
+        <li><a href="#watches">الساعات</a></li>
+        <li><a href="#earbuds">سماعات</a></li>
+        <li><a href="#accessories">اكسسوارات</a></li>
+        <li><a href="#contact">تواصل معنا</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="nav-icon-btn" aria-label="بحث">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        </button>
+        <button class="nav-icon-btn cart-btn" aria-label="سلة التسوق">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span class="cart-count">0</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="القائمة">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#brands">الماركات</a></li>
+        <li><a href="#phones">الهواتف</a></li>
+        <li><a href="#watches">الساعات</a></li>
+        <li><a href="#earbuds">سماعات</a></li>
+        <li><a href="#accessories">اكسسوارات</a></li>
+        <li><a href="#contact">تواصل معنا</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-gradient"></div>
+    <div class="hero-particles" id="hero-particles"></div>
+    <div class="hero-container">
+      <div class="hero-text" data-animate="fade-right">
+        <p class="hero-eyebrow">الأحدث · الأقوى · الأفضل</p>
+        <h1 class="hero-headline">
+          جيل جديد<br/>
+          <span class="headline-accent">من الهواتف</span><br/>
+          الذكية
+        </h1>
+        <p class="hero-subtext">اكتشف أحدث التقنيات في عالم الهواتف الذكية. تجربة تسوق استثنائية مع ضمان رسمي وتوصيل سريع.</p>
+        <div class="hero-cta-group">
+          <a href="#phones" class="btn-primary">تسوق الآن</a>
+          <a href="#brands" class="btn-ghost">استكشف الماركات</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-num">+500</span>
+            <span class="stat-label">منتج متوفر</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">+50K</span>
+            <span class="stat-label">عميل سعيد</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">5★</span>
+            <span class="stat-label">تقييم العملاء</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image-wrap" data-animate="fade-left">
+        <div class="hero-glow"></div>
+        <img
+          src="https://cdn.shortpixel.ai/spai/w_375+q_glossy+ret_img+to_webp/mobizil.com/wp-content/uploads/2025/09/17promax-design2.jpg"
+          alt="iPhone Premium"
+          class="hero-phone-img"
+          loading="eager"
+        />
+        <div class="hero-badge hero-badge-1">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          ضمان رسمي
+        </div>
+        <div class="hero-badge hero-badge-2">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          توصيل مجاني
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>اكتشف المزيد</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED BRANDS ===== -->
+  <section class="brands-section" id="brands">
+    <div class="section-container">
+      <div class="section-header" data-animate="fade-up">
+        <p class="section-eyebrow">شركاؤنا الرسميون</p>
+        <h2 class="section-title">الماركات المميزة</h2>
+        <p class="section-subtitle">نوفر أحدث منتجات كبرى الشركات العالمية بضمان رسمي معتمد</p>
+      </div>
+      <div class="brands-grid" data-animate="fade-up">
+        <a href="#phones" class="brand-card" data-brand="apple">
+          <div class="brand-icon-wrap">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple" class="brand-logo" />
+          </div>
+          <span class="brand-name">Apple</span>
+          <span class="brand-count">+120 منتج</span>
+        </a>
+        <a href="#phones" class="brand-card" data-brand="samsung">
+          <div class="brand-icon-wrap">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg" alt="Samsung" class="brand-logo samsung-logo" />
+          </div>
+          <span class="brand-name">Samsung</span>
+          <span class="brand-count">+150 منتج</span>
+        </a>
+        <a href="#phones" class="brand-card" data-brand="google">
+          <div class="brand-icon-wrap">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google Pixel" class="brand-logo google-logo" />
+          </div>
+          <span class="brand-name">Google Pixel</span>
+          <span class="brand-count">+40 منتج</span>
+        </a>
+        <a href="#phones" class="brand-card" data-brand="xiaomi">
+          <div class="brand-icon-wrap">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/Xiaomi_logo.svg" alt="Xiaomi" class="brand-logo xiaomi-logo" />
+          </div>
+          <span class="brand-name">Xiaomi</span>
+          <span class="brand-count">+90 منتج</span>
+        </a>
+        <a href="#phones" class="brand-card" data-brand="nothing">
+          <div class="brand-icon-wrap nothing-icon-wrap">
+            <span class="nothing-text-logo">Nothing</span>
+          </div>
+          <span class="brand-name">Nothing</span>
+          <span class="brand-count">+20 منتج</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LATEST PHONES ===== -->
+  <section class="products-section" id="phones">
+    <div class="section-container">
+      <div class="section-header" data-animate="fade-up">
+        <p class="section-eyebrow">أحدث الإصدارات لعام 2025</p>
+        <h2 class="section-title">أحدث الهواتف</h2>
+        <p class="section-subtitle">اختر من مجموعتنا المتميزة من أفضل الهواتف الذكية في العالم</p>
+      </div>
+      <div class="filter-tabs" data-animate="fade-up">
+        <button class="filter-tab active" data-filter="all">الكل</button>
+        <button class="filter-tab" data-filter="apple">Apple</button>
+        <button class="filter-tab" data-filter="samsung">Samsung</button>
+        <button class="filter-tab" data-filter="google">Google</button>
+        <button class="filter-tab" data-filter="xiaomi">Xiaomi</button>
+      </div>
+      <div class="products-grid phones-grid" id="phones-grid">
+
+        <!-- Phone 1 -->
+        <div class="product-card" data-animate="fade-up" data-brand="apple" data-delay="0">
+          <div class="card-badge new">جديد</div>
+          <div class="card-image-wrap">
+            <img src="https://www.bing.com/images/search?view=detailV2&ccid=PaZlub0v&id=7EFA30A5BC8DC7979AF3D6304400B156F846A69E&thid=OIP.PaZlub0vkpK_S1WeyoF0RQHaHU&mediaurl=https%3a%2f%2fmobizil.com%2fwp-content%2fuploads%2f2024%2f09%2f16promax-box-800x791.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.3da665b9bd2f9292bf4b559eca817445%3frik%3dnqZG%252bFaxAEQw1g%26pid%3dImgRaw%26r%3d0&exph=791&expw=800&q=%d8%b5%d9%88%d8%b1%d9%87+%d9%84%d8%aa%d9%84%d9%81%d9%88%d9%86+%d8%a7%d9%8a%d9%81%d9%88%d9%86+16+%d8%a8+%d8%b1%d8%b2+%d9%85%d8%a7%d9%83%d8%b3&FORM=IRPRST&ck=F336044D54E72E528F958D691B9E6D15&selectedIndex=27&itb=0&qpvt=%d8%b5%d9%88%d8%b1%d9%87+%d9%84%d8%aa%d9%84%d9%81%d9%88%d9%86+%d8%a7%d9%8a%d9%81%d9%88%d9%86+16+%d8%a8+%d8%b1%d8%b2+%d9%85%d8%a7%d9%83%d8%b3" alt="iPhone 16 Pro Max" loading="lazy" />
+            <div class="card-overlay">
+              <button class="quick-view-btn">عرض سريع</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Apple</p>
+            <h3 class="card-name">iPhone 16 Pro Max</h3>
+            <div class="card-rating">
+              <div class="stars">★★★★★</div>
+              <span class="rating-count">(2,847)</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-current">4,999 ر.س</span>
+                <span class="price-old">5,499 ر.س</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'iPhone 16 Pro Max')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phone 2 -->
+        <div class="product-card" data-animate="fade-up" data-brand="samsung" data-delay="100">
+          <div class="card-badge hot">الأكثر مبيعاً</div>
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400&q=85&auto=format" alt="Samsung Galaxy S25 Ultra" loading="lazy" />
+            <div class="card-overlay">
+              <button class="quick-view-btn">عرض سريع</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Samsung</p>
+            <h3 class="card-name">Galaxy S25 Ultra</h3>
+            <div class="card-rating">
+              <div class="stars">★★★★★</div>
+              <span class="rating-count">(3,219)</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-current">4,799 ر.س</span>
+                <span class="price-old">5,199 ر.س</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'Galaxy S25 Ultra')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phone 3 -->
+        <div class="product-card" data-animate="fade-up" data-brand="google" data-delay="200">
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400&q=85&auto=format" alt="Google Pixel 9 Pro" loading="lazy" />
+            <div class="card-overlay">
+              <button class="quick-view-btn">عرض سريع</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Google</p>
+            <h3 class="card-name">Pixel 9 Pro XL</h3>
+            <div class="card-rating">
+              <div class="stars">★★★★☆</div>
+              <span class="rating-count">(1,654)</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-current">3,699 ر.س</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'Pixel 9 Pro XL')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phone 4 -->
+        <div class="product-card" data-animate="fade-up" data-brand="xiaomi" data-delay="300">
+          <div class="card-badge sale">خصم 15%</div>
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&q=85&auto=format" alt="Xiaomi 15 Ultra" loading="lazy" />
+            <div class="card-overlay">
+              <button class="quick-view-btn">عرض سريع</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Xiaomi</p>
+            <h3 class="card-name">Xiaomi 15 Ultra</h3>
+            <div class="card-rating">
+              <div class="stars">★★★★★</div>
+              <span class="rating-count">(987)</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-current">2,999 ر.س</span>
+                <span class="price-old">3,499 ر.س</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'Xiaomi 15 Ultra')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phone 5 -->
+        <div class="product-card" data-animate="fade-up" data-brand="apple" data-delay="0">
+          <div class="card-image-wrap">
+            <img src="https://tse2.mm.bing.net/th/id/OIP.I2Lubx62q0K_MwYz7G4xzQHaHa?w=700&h=700&rs=1&pid=ImgDetMain&o=7&rm=3" alt="iPhone 16" loading="lazy" />
+            <div class="card-overlay">
+              <button class="quick-view-btn">عرض سريع</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Apple</p>
+            <h3 class="card-name">iPhone 16</h3>
+            <div class="card-rating">
+              <div class="stars">★★★★★</div>
+              <span class="rating-count">(4,112)</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-current">3,499 ر.س</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'iPhone 16')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phone 6 -->
+        <div class="product-card" data-animate="fade-up" data-brand="samsung" data-delay="100">
+          <div class="card-image-wrap">
+            <img src="https://th.bing.com/th/id/OIP.JkZWdmdYFD_ZtNCUKeXLSAHaEW?w=288&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Samsung Galaxy Z Fold 6" loading="lazy" />
+            <div class="card-overlay">
+              <button class="quick-view-btn">عرض سريع</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Samsung</p>
+            <h3 class="card-name">Galaxy Z Fold 6</h3>
+            <div class="card-rating">
+              <div class="stars">★★★★☆</div>
+              <span class="rating-count">(1,203)</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-current">5,899 ر.س</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'Galaxy Z Fold 6')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phone 7 -->
+        <div class="product-card" data-animate="fade-up" data-brand="xiaomi" data-delay="200">
+          <div class="card-badge new">جديد</div>
+          <div class="card-image-wrap">
+            <img src="data:image/webp;base64,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" alt="Redmi Note 14 Pro" loading="lazy" />
+            <div class="card-overlay">
+              <button class="quick-view-btn">عرض سريع</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Xiaomi</p>
+            <h3 class="card-name">Redmi Note 14 Pro+</h3>
+            <div class="card-rating">
+              <div class="stars">★★★★☆</div>
+              <span class="rating-count">(2,564)</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-current">1,299 ر.س</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'Redmi Note 14 Pro+')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Phone 8 -->
+        <div class="product-card" data-animate="fade-up" data-brand="google" data-delay="300">
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1512054502232-10a0a035d672?w=400&q=85&auto=format" alt="Google Pixel 9" loading="lazy" />
+            <div class="card-overlay">
+              <button class="quick-view-btn">عرض سريع</button>
+            </div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Google</p>
+            <h3 class="card-name">Google Pixel 9</h3>
+            <div class="card-rating">
+              <div class="stars">★★★★☆</div>
+              <span class="rating-count">(876)</span>
+            </div>
+            <div class="card-footer">
+              <div class="card-price">
+                <span class="price-current">2,799 ر.س</span>
+                <span class="price-old">3,099 ر.س</span>
+              </div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'Google Pixel 9')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SMART WATCHES ===== -->
+  <section class="products-section watches-section" id="watches">
+    <div class="section-container">
+      <div class="section-header" data-animate="fade-up">
+        <p class="section-eyebrow">أذكى مما تتخيل</p>
+        <h2 class="section-title">الساعات الذكية</h2>
+        <p class="section-subtitle">تابع صحتك ونشاطك اليومي مع أفضل الساعات الذكية</p>
+      </div>
+      <div class="products-grid watches-grid">
+
+        <div class="product-card" data-animate="fade-up" data-delay="0">
+          <div class="card-badge new">جديد</div>
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=400&q=85&auto=format" alt="Apple Watch Ultra 2" loading="lazy" />
+            <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Apple</p>
+            <h3 class="card-name">Apple Watch Ultra 2</h3>
+            <div class="card-rating"><div class="stars">★★★★★</div><span class="rating-count">(1,432)</span></div>
+            <div class="card-footer">
+              <div class="card-price"><span class="price-current">2,999 ر.س</span></div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'Apple Watch Ultra 2')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-animate="fade-up" data-delay="100">
+          <div class="card-badge hot">الأكثر مبيعاً</div>
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&q=85&auto=format" alt="Samsung Galaxy Watch 7" loading="lazy" />
+            <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Samsung</p>
+            <h3 class="card-name">Galaxy Watch 7 Ultra</h3>
+            <div class="card-rating"><div class="stars">★★★★★</div><span class="rating-count">(987)</span></div>
+            <div class="card-footer">
+              <div class="card-price"><span class="price-current">1,799 ر.س</span><span class="price-old">1,999 ر.س</span></div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'Galaxy Watch 7 Ultra')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-animate="fade-up" data-delay="200">
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1544117519-31a4b719223d?w=400&q=85&auto=format" alt="Xiaomi Watch S4" loading="lazy" />
+            <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Xiaomi</p>
+            <h3 class="card-name">Xiaomi Watch S4 Sport</h3>
+            <div class="card-rating"><div class="stars">★★★★☆</div><span class="rating-count">(654)</span></div>
+            <div class="card-footer">
+              <div class="card-price"><span class="price-current">599 ر.س</span></div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'Xiaomi Watch S4 Sport')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-animate="fade-up" data-delay="300">
+          <div class="card-badge sale">خصم 20%</div>
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=400&q=85&auto=format" alt="Google Pixel Watch 3" loading="lazy" />
+            <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Google</p>
+            <h3 class="card-name">Pixel Watch 3 XL</h3>
+            <div class="card-rating"><div class="stars">★★★★☆</div><span class="rating-count">(432)</span></div>
+            <div class="card-footer">
+              <div class="card-price"><span class="price-current">999 ر.س</span><span class="price-old">1,249 ر.س</span></div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'Pixel Watch 3 XL')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WIRELESS EARBUDS ===== -->
+  <section class="products-section earbuds-section" id="earbuds">
+    <div class="section-container">
+      <div class="section-header" data-animate="fade-up">
+        <p class="section-eyebrow">صوت لا يضاهى</p>
+        <h2 class="section-title">السماعات اللاسلكية</h2>
+        <p class="section-subtitle">جودة صوت استثنائية وعزل للضوضاء بتقنية متطورة</p>
+      </div>
+      <div class="products-grid earbuds-grid">
+
+        <div class="product-card" data-animate="fade-up" data-delay="0">
+          <div class="card-badge hot">الأكثر مبيعاً</div>
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?w=400&q=85&auto=format" alt="AirPods Pro 2" loading="lazy" />
+            <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Apple</p>
+            <h3 class="card-name">AirPods Pro 2</h3>
+            <div class="card-rating"><div class="stars">★★★★★</div><span class="rating-count">(5,431)</span></div>
+            <div class="card-footer">
+              <div class="card-price"><span class="price-current">999 ر.س</span></div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'AirPods Pro 2')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-animate="fade-up" data-delay="100">
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=400&q=85&auto=format" alt="Samsung Galaxy Buds3 Pro" loading="lazy" />
+            <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Samsung</p>
+            <h3 class="card-name">Galaxy Buds3 Pro</h3>
+            <div class="card-rating"><div class="stars">★★★★☆</div><span class="rating-count">(2,108)</span></div>
+            <div class="card-footer">
+              <div class="card-price"><span class="price-current">699 ر.س</span><span class="price-old">849 ر.س</span></div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'Galaxy Buds3 Pro')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-animate="fade-up" data-delay="200">
+          <div class="card-badge new">جديد</div>
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1572536147248-ac59a8abfa4b?w=400&q=85&auto=format" alt="Nothing Ear 2" loading="lazy" />
+            <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Nothing</p>
+            <h3 class="card-name">Nothing Ear (2)</h3>
+            <div class="card-rating"><div class="stars">★★★★☆</div><span class="rating-count">(789)</span></div>
+            <div class="card-footer">
+              <div class="card-price"><span class="price-current">499 ر.س</span></div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'Nothing Ear (2)')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-animate="fade-up" data-delay="300">
+          <div class="card-badge sale">خصم 25%</div>
+          <div class="card-image-wrap">
+            <img src="https://images.unsplash.com/photo-1578319439584-104c94d37305?w=400&q=85&auto=format" alt="Xiaomi Buds 5 Pro" loading="lazy" />
+            <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+          </div>
+          <div class="card-body">
+            <p class="card-brand">Xiaomi</p>
+            <h3 class="card-name">Xiaomi Buds 5 Pro</h3>
+            <div class="card-rating"><div class="stars">★★★★☆</div><span class="rating-count">(1,023)</span></div>
+            <div class="card-footer">
+              <div class="card-price"><span class="price-current">349 ر.س</span><span class="price-old">469 ر.س</span></div>
+              <button class="btn-add-cart" onclick="addToCart(this, 'Xiaomi Buds 5 Pro')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/></svg>
+                أضف
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PHONE ACCESSORIES ===== -->
+  <section class="products-section accessories-section" id="accessories">
+    <div class="section-container">
+      <div class="section-header" data-animate="fade-up">
+        <p class="section-eyebrow">أكمل تجربتك</p>
+        <h2 class="section-title">اكسسوارات الهاتف</h2>
+        <p class="section-subtitle">كل ما تحتاجه لتجربة هاتفية مثالية</p>
+      </div>
+
+      <div class="accessories-categories">
+        <!-- Cases -->
+        <div class="acc-category" data-animate="fade-up">
+          <div class="acc-category-header">
+            <div class="acc-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="7" y="2" width="10" height="20" rx="2" ry="2"/></svg>
+            </div>
+            <div>
+              <h3 class="acc-category-title">الجرابات والأغطية</h3>
+              <p class="acc-category-sub">حماية مثالية بتصاميم أنيقة</p>
+            </div>
+          </div>
+          <div class="acc-products-row">
+
+            <div class="acc-product-card" data-animate="fade-up" data-delay="0">
+              <div class="card-image-wrap">
+                <img src="https://th.bing.com/th/id/OIP.emSkJo2-6Y89ezY-b6PSJwHaHa?w=208&h=208&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="MagSafe Case" loading="lazy" />
+                <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-name">Apple MagSafe Case</h4>
+                <div class="card-footer">
+                  <span class="price-current">249 ر.س</span>
+                  <button class="btn-add-cart small" onclick="addToCart(this, 'Apple MagSafe Case')">أضف</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="acc-product-card" data-animate="fade-up" data-delay="100">
+              <div class="card-image-wrap">
+                <img src="https://th.bing.com/th/id/OIP.oOf3nWF0brDb43U47MxKQgHaHa?w=196&h=196&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Samsung S-View Cover" loading="lazy" />
+                <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-name">Samsung S-View Cover</h4>
+                <div class="card-footer">
+                  <span class="price-current">199 ر.س</span>
+                  <button class="btn-add-cart small" onclick="addToCart(this, 'Samsung S-View Cover')">أضف</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Chargers -->
+        <div class="acc-category" data-animate="fade-up">
+          <div class="acc-category-header">
+            <div class="acc-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <div>
+              <h3 class="acc-category-title">الشواحن</h3>
+              <p class="acc-category-sub">شحن سريع بقدرة عالية</p>
+            </div>
+          </div>
+          <div class="acc-products-row">
+
+            <div class="acc-product-card" data-animate="fade-up" data-delay="0">
+              <div class="card-image-wrap">
+                <img src="https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=300&q=80&auto=format" alt="Apple 140W Charger" loading="lazy" />
+                <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-name">شاحن 140W MagSafe</h4>
+                <div class="card-footer">
+                  <span class="price-current">299 ر.س</span>
+                  <button class="btn-add-cart small" onclick="addToCart(this, 'شاحن 140W MagSafe')">أضف</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="acc-product-card" data-animate="fade-up" data-delay="100">
+              <div class="card-image-wrap">
+                <img src="data:image/webp;base64,UklGRg4EAABXRUJQVlA4IAIEAABQKACdASoFAQUBPp1Ook2lpCOmIZN4iMATiWlu4WeBxus6SlM5k1wBlB2bB2bB2bB11EU86qlEdKlQ63GVs4lzFpzFpuGYhhyybHX26sJmvXlxsHZrppRQhyilJZtTi3wzzu+pL9DicqF1pqTK4PJ+Od2IDp95v4keDF0PnSMYgPl7TYLFmoIlpvIV0/4JaYN4t0dEUqyl9gU+/2Q/wZi5KCagQyMsntouz9wEMKYOYz/Pk1CrSGT7jIZe7zQquEwObfvaPG6+k/AfyItnPakLcIvP8MX85v2AvhEbt4pboGdMxXmzAvH4tpyAXZUQKI3G9tkDXxfiBoZLg/IrErGB2q+0I3zUvZvQ8ur/EA7wMObVy/LWvDDb1gvY+2B5oV70MOSEwMT7LmCzdcS5nxiIXZmIp/hILeKZ7uQCz8c5PHA+n4M4CV2pNO7AAP785cA1R04ya18nAbRbRDoQr5vdT+Rh5fF3sebi3TPLebCY8/SiiWoUWIiiy8eh9yjhMs7R9YRfY9u74tW2xN/VtvFrPl5FWx0wWaf0KnDXHrpO9WE9sfaPal6b8MiRRunBtkfS/fxHwERO8CnWyF3XXTIT1GDl1CAhkRIS8c/Gd4zVBtOUQY/KZxP8O9Eya57VTxClV/EBG0tGJTodPm3eCyAMx45mSY0hKVigRPqwRakIgdy/Ku1xys9VxhrSS0VZMHuO2a/V8I+Q9EkRkg38p8rJTkfBWntl/Ue1TLHpiDM1Fr2/ledSBNB0FztTilt/s4PbvBQLAuWbIbBQnATJgJ0zP0xtWyPvyhbzMP6MzlW0ZwZ7F4Q6NpNWVZtlFIMsFkutIOep+N+Pn3yVPn3T34FN3Fu/xLBzC19sj7QmmjyjuxAP3CO3rigr2tmVBzd61Lb+jDEhsXh26vpb2zoOCjzkJDb/nFQRQ67GmQocY33H10JUqJUzh3+eD4CRLLetoQlww9xamtBm0cxTkWErlLeDWL0Q2nygg8qiOT+ifvUlPWDowlRiDUixa5/GHXAUhYf+aIU8aFhkz90XAr1fEpZSoNmKsCdDkF+9Htp7EpqtD/+HiUff9ruaBmhqZ3EqskJlPurmcAvKIduVz95C2vjNtUpOJal2PaGN7iDY1i73eKJjiVEuzyBzo778VNCqzmKENHM+AIEC4C/KCNBHg4no2uqQgRUPyY1f5LYkJ0PSUkC+lE/XxsHOXpoJr0PT/DCeqM9jaAVT1zdWm5/LWrtYaqOOZUlDDi2D83hZKTJs2KRNdqAQ9rjPC59XxyEkJuAKzTmcoPXGQLdtQyLWi/b/v9kfgrIEWEQP2IR7EYn842/GGKVkGOxxhuTbxYrCqVBP9ycJw4AOWBPJd8HxG6UAAAA=" alt="Xiaomi 120W HyperCharge" loading="lazy" />
+                <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-name">Xiaomi 120W HyperCharge</h4>
+                <div class="card-footer">
+                  <span class="price-current">149 ر.س</span>
+                  <button class="btn-add-cart small" onclick="addToCart(this, 'Xiaomi 120W HyperCharge')">أضف</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Power Banks -->
+        <div class="acc-category" data-animate="fade-up">
+          <div class="acc-category-header">
+            <div class="acc-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 3H8v4h8V3z"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+            </div>
+            <div>
+              <h3 class="acc-category-title">البطاريات المحمولة</h3>
+              <p class="acc-category-sub">طاقة لا تنضب أينما كنت</p>
+            </div>
+          </div>
+          <div class="acc-products-row">
+
+            <div class="acc-product-card" data-animate="fade-up" data-delay="0">
+              <div class="card-image-wrap">
+                <img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=300&q=80&auto=format" alt="Power Bank 20000mAh" loading="lazy" />
+                <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-name">باور بانك 20,000 mAh</h4>
+                <div class="card-footer">
+                  <span class="price-current">199 ر.س</span>
+                  <button class="btn-add-cart small" onclick="addToCart(this, 'باور بانك 20,000 mAh')">أضف</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="acc-product-card" data-animate="fade-up" data-delay="100">
+              <div class="card-image-wrap">
+                <img src="https://th.bing.com/th/id/OIP.1ek4a4pZmL1K6oy5QDFVBgHaHO?w=224&h=219&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="MagSafe Power Bank" loading="lazy" />
+                <div class="card-overlay"><button class="quick-view-btn">عرض سريع</button></div>
+              </div>
+              <div class="card-body">
+                <h4 class="card-name">MagSafe Power Bank 10K</h4>
+                <div class="card-footer">
+                  <span class="price-current">349 ر.س</span>
+                  <button class="btn-add-cart small" onclick="addToCart(this, 'MagSafe Power Bank 10K')">أضف</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY CHOOSE US ===== -->
+  <section class="why-section" id="why">
+    <div class="section-container">
+      <div class="section-header" data-animate="fade-up">
+        <p class="section-eyebrow">التزامنا بك</p>
+        <h2 class="section-title">لماذا NEXT MOBILE؟</h2>
+        <p class="section-subtitle">نقدم لك أكثر من مجرد منتجات – نقدم لك تجربة تسوق متكاملة لا مثيل لها</p>
+      </div>
+      <div class="why-grid" data-animate="fade-up">
+
+        <div class="why-card" data-delay="0">
+          <div class="why-icon-wrap">
+            <div class="why-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+          </div>
+          <h3 class="why-title">ضمان رسمي معتمد</h3>
+          <p class="why-desc">جميع منتجاتنا تأتي بضمان رسمي من الشركات المصنّعة لمدة تصل إلى سنتين كاملتين</p>
+        </div>
+
+        <div class="why-card" data-delay="150">
+          <div class="why-icon-wrap">
+            <div class="why-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </div>
+          <h3 class="why-title">توصيل فائق السرعة</h3>
+          <p class="why-desc">خدمة توصيل سريع خلال 24-48 ساعة لجميع مناطق المملكة مع تتبع مباشر للشحنة</p>
+        </div>
+
+        <div class="why-card" data-delay="300">
+          <div class="why-icon-wrap">
+            <div class="why-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            </div>
+          </div>
+          <h3 class="why-title">دفع آمن ومشفّر</h3>
+          <p class="why-desc">نظام دفع محمي بأعلى معايير التشفير الأمني. قبول جميع طرق الدفع بأمان تام</p>
+        </div>
+
+        <div class="why-card" data-delay="450">
+          <div class="why-icon-wrap">
+            <div class="why-icon">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+          </div>
+          <h3 class="why-title">دعم فني متخصص</h3>
+          <p class="why-desc">فريق دعم فني متخصص على مدار الساعة طوال أيام الأسبوع لمساعدتك في أي وقت</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REVIEWS ===== -->
+  <section class="reviews-section" id="reviews">
+    <div class="section-container">
+      <div class="section-header" data-animate="fade-up">
+        <p class="section-eyebrow">آراء عملاؤنا</p>
+        <h2 class="section-title">ماذا يقول عملاؤنا</h2>
+        <p class="section-subtitle">أكثر من 50,000 عميل سعيد يثقون في NEXT MOBILE</p>
+      </div>
+      <div class="reviews-grid" data-animate="fade-up">
+
+        <div class="review-card" data-delay="0">
+          <div class="review-header">
+            <div class="reviewer-avatar">م</div>
+            <div class="reviewer-info">
+              <h4 class="reviewer-name">محمد العتيبي</h4>
+              <p class="reviewer-location">الرياض، المملكة العربية السعودية</p>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">تجربة تسوق رائعة جداً! وصل iPhone 16 Pro Max في اليوم التالي مع تغليف ممتاز وضمان رسمي. الأسعار تنافسية والخدمة احترافية. بالتأكيد سأتسوق مجدداً.</p>
+          <p class="review-product">iPhone 16 Pro Max · منذ 3 أيام</p>
+        </div>
+
+        <div class="review-card" data-delay="150">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #0ea5e9, #2563eb);">س</div>
+            <div class="reviewer-info">
+              <h4 class="reviewer-name">سارة الزهراني</h4>
+              <p class="reviewer-location">جدة، المملكة العربية السعودية</p>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">اشتريت Samsung Galaxy S25 Ultra وما قصّرت. الموقع سهل الاستخدام، الدفع آمن، والتوصيل جاء في الوقت المحدد. الدعم الفني أجاب على كل أسئلتي بسرعة واحترافية.</p>
+          <p class="review-product">Galaxy S25 Ultra · منذ أسبوع</p>
+        </div>
+
+        <div class="review-card" data-delay="300">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #8b5cf6, #a855f7);">ع</div>
+            <div class="reviewer-info">
+              <h4 class="reviewer-name">عبدالله القحطاني</h4>
+              <p class="reviewer-location">الدمام، المملكة العربية السعودية</p>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">متجر ممتاز بكل المقاييس! اشتريت Apple Watch Ultra 2 وجاء أصلي 100% مع ضمان سنتين. السعر أفضل من كثير من المتاجر. شكراً لفريق NEXT MOBILE المتميز.</p>
+          <p class="review-product">Apple Watch Ultra 2 · منذ أسبوعين</p>
+        </div>
+
+        <div class="review-card" data-delay="450">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #f59e0b, #f97316);">ن</div>
+            <div class="reviewer-info">
+              <h4 class="reviewer-name">نورة الشمري</h4>
+              <p class="reviewer-location">القصيم، المملكة العربية السعودية</p>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">أفضل تجربة تسوق إلكتروني مررت بها! المنتجات أصلية، التوصيل سريع جداً والتغليف محترم. اشتريت AirPods Pro 2 وكانت رائعة. نصحت جميع صديقاتي بهذا المتجر!</p>
+          <p class="review-product">AirPods Pro 2 · منذ شهر</p>
+        </div>
+
+        <div class="review-card" data-delay="600">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #10b981, #059669);">ف</div>
+            <div class="reviewer-info">
+              <h4 class="reviewer-name">فيصل الدوسري</h4>
+              <p class="reviewer-location">مكة المكرمة، المملكة العربية السعودية</p>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">تعاملت مع NEXT MOBILE أكثر من مرة ودايم راضي. المنتجات مضمونة وبأسعار حلوة. الدعم الفني واجهتهم مرة وقضوا مشكلتي في دقائق. ما في أفضل منهم.</p>
+          <p class="review-product">Xiaomi 15 Ultra · منذ شهرين</p>
+        </div>
+
+        <div class="review-card" data-delay="750">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background: linear-gradient(135deg, #ec4899, #f43f5e);">ر</div>
+            <div class="reviewer-info">
+              <h4 class="reviewer-name">ريم العسيري</h4>
+              <p class="reviewer-location">الطائف، المملكة العربية السعودية</p>
+            </div>
+            <div class="review-stars">★★★★☆</div>
+          </div>
+          <p class="review-text">تجربة ممتازة! اشتريت Pixel 9 Pro وكان بالضبط كما وصف. الموقع واضح والمعلومات دقيقة. سأطلب Xiaomi Watch قريباً. خصم نسبة بسيطة لو كان خيار الدفع بالتقسيط.</p>
+          <p class="review-product">Pixel 9 Pro XL · منذ شهرين</p>
+        </div>
+
+      </div>
+
+      <div class="reviews-summary" data-animate="fade-up">
+        <div class="summary-rating">
+          <span class="big-rating">4.9</span>
+          <div class="summary-stars">★★★★★</div>
+          <span class="summary-label">من 5 نجوم</span>
+        </div>
+        <div class="summary-bars">
+          <div class="bar-row"><span>5 نجوم</span><div class="bar-track"><div class="bar-fill" style="width:92%"></div></div><span>92%</span></div>
+          <div class="bar-row"><span>4 نجوم</span><div class="bar-track"><div class="bar-fill" style="width:6%"></div></div><span>6%</span></div>
+          <div class="bar-row"><span>3 نجوم</span><div class="bar-track"><div class="bar-fill" style="width:1.5%"></div></div><span>1.5%</span></div>
+          <div class="bar-row"><span>2 نجوم</span><div class="bar-track"><div class="bar-fill" style="width:0.3%"></div></div><span>0.3%</span></div>
+          <div class="bar-row"><span>1 نجوم</span><div class="bar-track"><div class="bar-fill" style="width:0.2%"></div></div><span>0.2%</span></div>
+        </div>
+        <div class="summary-total">
+          <span class="total-num">+50,000</span>
+          <span class="total-label">تقييم موثوق</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-section" id="contact">
+    <div class="section-container">
+      <div class="section-header" data-animate="fade-up">
+        <p class="section-eyebrow">نحن هنا لخدمتك</p>
+        <h2 class="section-title">تواصل معنا</h2>
+        <p class="section-subtitle">هل لديك سؤال؟ فريقنا المتخصص مستعد للإجابة على كل استفساراتك</p>
+      </div>
+      <div class="contact-grid" data-animate="fade-up">
+
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div>
+              <h4 class="contact-label">اتصل بنا</h4>
+              <p class="contact-value" dir="ltr">+966 11 123 4567</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <h4 class="contact-label">البريد الإلكتروني</h4>
+              <p class="contact-value" dir="ltr">info@nextmobile.sa</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4 class="contact-label">الموقع</h4>
+              <p class="contact-value">طريق الملك فهد، الرياض<br/>المملكة العربية السعودية</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h4 class="contact-label">ساعات العمل</h4>
+              <p class="contact-value">السبت – الخميس: 9ص – 11م<br/>الجمعة: 2م – 11م</p>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Twitter">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Snapchat">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.893 15.682c-.044.077-.226.128-.534.156-.462.042-.876.056-1.256.056-.494 0-.905-.028-1.256-.084l-.056-.009c-.196-.031-.398-.065-.6-.101-.432-.074-.882-.044-1.27.088l-.091.031c-.337.113-.617.207-.876.207-.296 0-.556-.104-.764-.31l-.053-.055c-.37-.41-.302-1.047.154-1.36l.035-.023c.206-.138.354-.276.45-.43.2-.318.146-.608-.046-.882l-.013-.018c-.115-.165-.217-.32-.301-.47-.198-.353-.294-.703-.294-1.063 0-1.027.835-1.862 1.862-1.862.394 0 .763.12 1.07.327.295-.216.663-.343 1.064-.343 1.027 0 1.862.836 1.862 1.862 0 .36-.096.71-.294 1.064-.085.15-.187.305-.302.47l-.014.018c-.192.274-.246.564-.045.882.096.154.244.292.45.43l.035.023c.456.313.524.95.154 1.36z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="WhatsApp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">الاسم الكامل</label>
+              <input type="text" class="form-input" placeholder="أدخل اسمك الكامل" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label">رقم الجوال</label>
+              <input type="tel" class="form-input" placeholder="05X XXX XXXX" dir="ltr" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label">البريد الإلكتروني</label>
+            <input type="email" class="form-input" placeholder="example@email.com" dir="ltr" required />
+          </div>
+          <div class="form-group">
+            <label class="form-label">الموضوع</label>
+            <select class="form-input form-select">
+              <option value="">اختر موضوع الرسالة</option>
+              <option>استفسار عن منتج</option>
+              <option>متابعة طلب</option>
+              <option>الضمان والصيانة</option>
+              <option>الإرجاع والاستبدال</option>
+              <option>اقتراح أو شكوى</option>
+              <option>أخرى</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label">الرسالة</label>
+            <textarea class="form-input form-textarea" rows="5" placeholder="اكتب رسالتك هنا..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-submit">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            إرسال الرسالة
+          </button>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <a href="#" class="nav-logo">
+            <span class="logo-next">NEXT</span>
+            <span class="logo-mobile">MOBILE</span>
+          </a>
+          <p class="footer-desc">متجرك الأول لأحدث الهواتف الذكية والإلكترونيات بضمان رسمي وأسعار تنافسية في المملكة العربية السعودية.</p>
+          <div class="footer-payments">
+            <span class="payment-badge">VISA</span>
+            <span class="payment-badge">Mastercard</span>
+            <span class="payment-badge">Mada</span>
+            <span class="payment-badge">Apple Pay</span>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">المنتجات</h4>
+          <ul>
+            <li><a href="#phones">الهواتف الذكية</a></li>
+            <li><a href="#watches">الساعات الذكية</a></li>
+            <li><a href="#earbuds">السماعات اللاسلكية</a></li>
+            <li><a href="#accessories">الاكسسوارات</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">الشركة</h4>
+          <ul>
+            <li><a href="#">من نحن</a></li>
+            <li><a href="#">المدونة</a></li>
+            <li><a href="#">العروض</a></li>
+            <li><a href="#contact">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4 class="footer-col-title">الدعم</h4>
+          <ul>
+            <li><a href="#">الضمان والصيانة</a></li>
+            <li><a href="#">سياسة الإرجاع</a></li>
+            <li><a href="#">الشحن والتوصيل</a></li>
+            <li><a href="#">الأسئلة الشائعة</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-container footer-bottom-inner">
+        <p class="footer-copy">© 2025 NEXT MOBILE. جميع الحقوق محفوظة.</p>
+        <div class="footer-bottom-links">
+          <a href="#">سياسة الخصوصية</a>
+          <a href="#">الشروط والأحكام</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Cart Toast -->
+  <div class="cart-toast" id="cart-toast">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+    <span id="toast-msg">تمت الإضافة إلى السلة</span>
+  </div>
+
+  <!-- Scroll To Top -->
+  <button class="scroll-top" id="scroll-top" aria-label="العودة للأعلى">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
