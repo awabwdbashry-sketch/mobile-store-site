@@ -211,7 +211,7 @@ http://localhost/mobile-store-site/
 
 ## 👨‍💻 المطور
 
-**Awab Wd Bashry**
+**Awab Bashary | AwabBuilds**
 
 💻 Web Developer  
 🇸🇩 Sudan
@@ -433,7 +433,7 @@ The goal of this project is to build a **complete e-commerce platform** that can
 
 ## 👨‍💻 Developer
 
-**Awab Wd Bashry**
+**Awab Bashary | AwabBuilds**
 
 💻 Web Developer  
 🇸🇩 Sudan
